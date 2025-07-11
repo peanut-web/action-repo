@@ -22,5 +22,4 @@ jobs:
             "to_branch": "${{ github.event.pull_request.base.ref || github.ref_name }}",
             "timestamp": "'"$(date -u +%Y-%m-%dT%H:%M:%SZ)"'"
           }'
-.
-.
+
